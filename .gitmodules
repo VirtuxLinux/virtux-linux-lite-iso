@@ -1,0 +1,3 @@
+[submodule "src/airootfs/usr/local/src/virtux-linux-lite-install-git"]
+	path = src/airootfs/usr/local/src/virtux-linux-lite-install-git
+	url = https://github.com/VirtuxLinux/virtux-linux-lite-install.git

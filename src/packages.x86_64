@@ -147,3 +147,8 @@ network-manager-applet
 lightdm-gtk-greeter
 htop
 wget
+
+# virtux-linux-lite-install-git
+git
+python
+python-setuptools
