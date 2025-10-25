@@ -26,4 +26,5 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/etc/sudoers"]="0:0:440"
   ["/etc/lightdm/lightdm.conf"]="0:0:644"
+  ["/etc/pacman.conf"]="0:0:644"
 )
