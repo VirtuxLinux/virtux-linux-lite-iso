@@ -152,3 +152,7 @@ wget
 git
 python
 python-setuptools
+
+# Chaotic-AUR
+chaotic-keyring
+chaotic-mirrorlist
