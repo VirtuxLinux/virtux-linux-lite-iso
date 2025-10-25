@@ -1,3 +1,4 @@
+# Releng
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -126,3 +127,23 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+
+# Desktop
+xfce4
+xfce4-goodies
+pavucontrol
+gvfs
+xarchiver
+alsa-firmware
+pipewire
+#pipewire-alsa
+pipewire-jack
+pipewire-pulse
+gst-plugin-pipewire
+libpulse
+wireplumber
+networkmanager
+network-manager-applet
+lightdm-gtk-greeter
+htop
+wget

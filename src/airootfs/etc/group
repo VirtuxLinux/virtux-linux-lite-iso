@@ -3,3 +3,4 @@ adm:x:4:live
 wheel:x:10:live
 uucp:x:14:live
 live:x:1000:
+autologin:x:1002:live
