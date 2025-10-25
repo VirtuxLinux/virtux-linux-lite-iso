@@ -33,6 +33,8 @@ jobs:
               pacman-key --lsign-key 3056513887B78AEB &&
               pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' &&
               pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst' &&
+              pacman-key --add /archiso/src/airootfs/usr/share/pacman/keyrings/virtux-linux-lite.gpg &&
+              pacman-key --lsign-key 73D9750FD0E63604DCD24BB28B10A1755F658735 &&
               pacman -Sy --noconfirm archiso make sudo &&
               useradd -m builder &&
               echo 'builder ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers &&
